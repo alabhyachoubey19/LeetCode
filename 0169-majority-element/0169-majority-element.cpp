@@ -14,15 +14,7 @@ public:
                 count--;
             }
         }
-        int assure; //variable to check whether the potential element is actually the maojority element or not
-        for(int i = 0; i<nums.size(); i++){
-            if(nums[i] == majorElement){
-                assure++;
-            }
-        }
-        if(assure > (nums.size()/2)){
-            return majorElement;
-        }
-        return -1;
+        return majorElement;
+        
     }
 };
