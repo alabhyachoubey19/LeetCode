@@ -1,5 +1,7 @@
 class Solution {
 public:
+//rearrange the array in alternating positive and negative sign
+/*brute: create an temp array for positive and negative arrays the rearrange them in the original array, time comoplexity: O(2n), space complexity: O(n)*/
     vector<int> rearrangeArray(vector<int>& nums) {
         int n = nums.size();
         vector<int> ans(n,0);
